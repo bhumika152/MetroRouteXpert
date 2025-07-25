@@ -2,3 +2,7 @@ Flask
 gunicorn
 flask-cors
 networkx
+matplotlib
+requests
+pandas
+numpy
