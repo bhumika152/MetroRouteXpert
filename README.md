@@ -7,19 +7,28 @@ A full-stack Delhi Metro navigation system powered by **React** (frontend) and *
 ## 📁 Project Structure
 
 MetroRouteExpert/
+
 ├── py-backend/ # Flask backend
+
 │ └── main.py # Entry point for Flask
+
 │
 ├── metro_fair-master/ # Graph and routing logic (Dijkstra)
 │
 ├── metro_route_expert/
+
 │ └── src/ # React frontend
+
 │ └── (npm start here)
 │
 ├── map_data.csv # Metro station map data
+
 ├── links.csv # Station connection data
+
 ├── getlinks.ipynb # Preprocessing / analysis notebook
+
 ├── Metro Route Xpert_Prj2.pptx
+
 ├── MetroRouteXpert_PRJ2.pdf
 
 
