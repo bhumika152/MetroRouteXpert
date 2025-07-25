@@ -1,7 +1,11 @@
 services:
   - type: web
-    name: metro-route-expert
+    name: metroroutexpert-backend
     env: python
-    buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn main:app
-    rootDir: py-backend
+    region: oregon
+    plan: free
+    buildCommand: ""
+    startCommand: "python py-backend/main.py"
+    envVars:
+      - key: FLASK_ENV
+        value: production
