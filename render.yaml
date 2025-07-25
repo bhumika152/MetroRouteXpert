@@ -1,10 +1,10 @@
 services:
   - type: web
-    name: metroroutexpert-backend
+    name: MetroRouteXpert
     env: python
     region: oregon
     plan: free
-    buildCommand: ""
+    buildCommand: "pip install -r py-backend/requirements.txt"
     startCommand: "python py-backend/main.py"
     envVars:
       - key: FLASK_ENV
