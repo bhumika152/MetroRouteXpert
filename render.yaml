@@ -1,11 +1,23 @@
+# services:
+#   - type: web
+#     name: MetroRouteXpert
+#     env: python
+#     region: oregon
+#     plan: free
+#     buildCommand: "pip install -r py-backend/requirements.txt"
+#     startCommand: "python py-backend/main.py"
+#     envVars:
+#       - key: FLASK_ENV
+#         value: production
 services:
   - type: web
     name: MetroRouteXpert
     env: python
     region: oregon
     plan: free
-    buildCommand: "pip install -r py-backend/requirements.txt"
-    startCommand: "python py-backend/main.py"
+    rootDir: py-backend
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "gunicorn main:app --bind 0.0.0.0:$PORT"
     envVars:
       - key: FLASK_ENV
         value: production
