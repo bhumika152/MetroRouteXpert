@@ -88,6 +88,10 @@ Metro Route Xpert_Prj2.pptx – Project presentation
 
 MetroRouteXpert_PRJ2.pdf – Project report/documentation
 
+Deployed on RENDER:
+https://metroroutexpert.onrender.com/
+
+
 ✨ Developed By
 Bhumika
 B.Tech, BML Munjal University
@@ -96,11 +100,3 @@ B.Tech, BML Munjal University
 📃 License
 MIT License — free to use with attribution.
 
-
-### ✅ To use:
-
-1. Save this as `README.md` in the root of your GitHub project.
-2. Make sure your Flask app allows CORS if you’re accessing it from a separate port (`3000` React → `5000` Flask).
-3. Want me to create a sample `.env`, `.gitignore`, or `package.json` reference?
-
-Let me know if you want to deploy this full-stack app to Render or Vercel + Render com
